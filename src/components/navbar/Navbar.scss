@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 8%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+    .logo{
+        display: flex;
+        align-items: center;
+
+        h1{
+            font-size: 18px;
+        }
+    }
+
+    .links{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        
+        .link{
+            transition: .3s;
+            letter-spacing: 2px;
+            font-size: 12px;
+
+            &:hover{
+                color: #FF404D;
+            }
+    
+        }
+
+    }
+}

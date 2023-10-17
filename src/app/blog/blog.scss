@@ -1,0 +1,33 @@
+.blog{
+    h1{
+        font-size: 50px;
+        margin-bottom: 3rem;
+    }
+
+   .BlogWraps{
+
+    .blogItem{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 3rem;
+
+        img{
+            width: 300px;
+            height: 200px;
+        }
+
+        .blogDesc{
+            h2{
+                font-size: 20px;
+                width: 400px;
+                margin-bottom: 1rem;
+            }
+            p{
+                width: 400px;
+            }
+        }
+    }   
+  
+   } 
+}

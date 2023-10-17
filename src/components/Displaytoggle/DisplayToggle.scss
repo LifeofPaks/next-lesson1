@@ -1,0 +1,26 @@
+.display{
+
+    padding: .1rem .3rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    cursor: pointer;
+    position: relative;
+
+    .displayMode{
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: rgb(144, 235, 8);
+        position: absolute;
+        transform: translateX(19px);
+        transition: .3s;
+        
+        &.dark{
+            transform: translateX(0);
+        }
+
+    }
+}

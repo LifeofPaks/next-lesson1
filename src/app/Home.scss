@@ -1,0 +1,46 @@
+.home{
+    display: flex;
+    align-items: center;
+
+    .left{
+        width: 100%;
+
+        h1{
+            width: 400px;
+            margin-bottom: 1rem;
+            font-size: 3.2rem;
+            background: linear-gradient(to bottom, #FF404D, #bbb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p{
+            width: 400px;
+            line-height: 23px;
+        }
+
+        button{
+            color: #fff;
+            padding: .5rem 1rem;
+            background: #FF404D;
+            margin-top: 1rem;
+        }
+    }
+
+    .right{
+        img{
+            animation: move 3s infinite ease alternate;
+        }
+
+        @keyframes move {
+            from{
+                transform: translateX(-10px)
+            }
+
+            to{
+                transform: translateX(10px) scale(1.03);
+            }
+        }
+    }
+
+}

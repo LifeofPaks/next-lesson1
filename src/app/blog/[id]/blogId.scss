@@ -1,0 +1,44 @@
+.blogId{
+    margin-top: 2rem;
+
+    p{
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .top{
+        display: flex;
+        align-items: flex-start;
+        gap: 3rem;
+
+        .left{
+            h1{
+                margin-bottom: 1rem;
+            }
+
+
+            .authur{
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                margin-top: 1rem;
+
+                img{
+                    border-radius: 50%;
+                }
+
+                span{
+                    font-size: 12px;
+                }
+            }
+           
+        }
+    }
+
+    .bottom{
+        margin-top: 2rem;
+        p{
+            margin-bottom: 1.5rem;
+        }
+    }
+}
